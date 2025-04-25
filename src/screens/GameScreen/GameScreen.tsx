@@ -164,7 +164,7 @@ function GameScreen(props: Props): JSX.Element {
 	return (
 		<main className="game-screen">
 			<header className="header-section">
-				<h1 className="app-title">Memory</h1>
+				<h1 className="app-title">Memory Game</h1>
 
 				<div className="control-buttons">
 					<button onClick={pauseGame} className="orange-button" disabled={gameCompleted}>Pause</button>
@@ -235,8 +235,8 @@ function GameScreen(props: Props): JSX.Element {
 			</section>
 
 			<p className="credit">Created by
-				<a href="https://zakariyaq313.github.io/my-website/" target="_blank" rel="noreferrer">
-					Muhammad Zakariya
+				<a href="https://github.com/yuvraj7773786" target="_blank" rel="noreferrer">
+				Yuvraj Singh
 				</a>
 			</p>
 		</main>
